@@ -4,9 +4,9 @@
 int main(){
 	int i, j;
     int k;
-	int n = 3;
+    int n = 3;
 	
-	float A[3][3];
+    float A[3][3];
     float B[3]= {1,2,3};
 
     float aux;
@@ -21,7 +21,7 @@ int main(){
     A[2][1] = 3;
     A[2][2] = -2;
 	
-	printf("\nMatriz inserida: \n");
+    printf("\nMatriz inserida: \n");
     for(i=0; i<n; i++){
         printf(" ");
         for(j=0; j<n; j++){
@@ -45,7 +45,7 @@ int main(){
         } 
     }
 
-	printf("\n\nMatriz inserida: \n");
+    printf("\n\nMatriz inserida: \n");
     for(i=0; i<n; i++){
         printf(" ");
         for(j=0; j<n; j++){
